@@ -18,6 +18,9 @@ enableRobotsTXT = true
 # resolve, it will be logged with this log level.
 refLinksErrorLevel = 'WARNING'
 
+[permalinks]
+  poems = '/:slug/'
+
 [params]
   # Site description. Used in meta description
   description = 'Poems by SalahDin A. Rezk'
