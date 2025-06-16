@@ -163,36 +163,15 @@ refLinksErrorLevel = 'WARNING'
     pageRef = '/'       # path to the page
     weight = 1          # order of the menu item
   [[menus.main]]
-    identifier = 'about'
-    name = 'About'
-    pageRef = '/about'
-    weight = 2
-  [[menus.main]]
-    identifier = 'credits'
-    name = 'Credits'
-    pageRef = '/credits'
-    weight = 3
-  [[menus.main]]
-    identifier = 'documentation'
-    name = 'Documentation'
-    pageRef = '/documentation'
-    weight = 4
-  [[menus.main]]
     identifier = 'search'
     name = 'Search'
     pageRef = '/search'
-    weight = 5
+    weight = 2
   [[menus.main]]
     identifier = 'contact'
     name = 'Contact'
     pageRef = '/contact'
-    weight = 6
-  [[menus.main]]
-    identifier = 'github'
-    name = 'GitHub Project'
-    url = 'https://github.com/sergeyklay/gohugo-theme-ed/'
-    weight = 20
-    params = {external = true}
+    weight = 3
 
   [[menus.feeds]]
     identifier = 'rss'
