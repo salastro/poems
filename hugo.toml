@@ -39,13 +39,6 @@ refLinksErrorLevel = 'WARNING'
   # Colour scheme. Options: red, orange, magenta, cyan, blue, brown
   colorScheme = 'brown'
 
-  # Sections to be displayed in:
-  # - main page
-  # - RSS feeds
-  # - search index
-  # - ...
-  mainSections = ['posts', 'dramas', 'narratives', 'poems']
-
   # Posts date format, for example: 2006-01-02
   dateFormat = ':date_long'
   dateFormatToc = '2006.01.02'
