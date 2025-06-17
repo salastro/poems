@@ -1,5 +1,5 @@
 # You may need to change this line for your real project.
-baseURL = 'salastro.github.io/poems'
+baseURL = 'https://salastro.github.io/poems/'
 
 # A "copyright"-line to be added to RSS/Atom files and the footer.
 copyright = 'Public Domain 2025 SalahDin A. Rezk'
