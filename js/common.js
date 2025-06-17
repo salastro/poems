@@ -13,6 +13,7 @@
   }
   function setupHypothes() {
     const hypothesisContainer = document.querySelector(".hypothesis-container");
+    const sidebarCheckbox = document.querySelector("#sidebar-checkbox");
     if (hypothesisContainer !== null) {
       hypothesisContainer.addEventListener("click", (e) => {
         e.preventDefault();
@@ -20,6 +21,9 @@
         script.setAttribute("src", "https://cdn.hypothes.is/hypothesis");
         script.type = "text/javascript";
         document.getElementsByTagName("head")[0].appendChild(script);
+        if (sidebarCheckbox && sidebarCheckbox.checked) {
+          sidebarCheckbox.checked = false;
+        }
       });
     }
     const hypothesisLink = document.querySelector("#hypothesis-link");
