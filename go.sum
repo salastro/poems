@@ -4,3 +4,5 @@ github.com/olivernn/lunr.js v2.3.9+incompatible h1:eH8iBnjlR4mwlYDdNuqy9PCNLjp2b
 github.com/olivernn/lunr.js v2.3.9+incompatible/go.mod h1:yEkQ1DUSMtNsn8n2CqvQXZd0ErWPEG8g9QRmblR+KS8=
 github.com/salastro/ed v0.0.0-20250615045932-c02dbd996e06 h1:RRYhFnRJYgXqK4Ze9/vU9tfg/3ZPVKjUtpZYo1DCeEY=
 github.com/salastro/ed v0.0.0-20250615045932-c02dbd996e06/go.mod h1:hnZ0m5EgQboxJwlqmioQC/y8mDLFjwGBxCSb+bwcrmc=
+github.com/salastro/ed v0.0.0-20250617201409-1309e2de41ad h1:hmGKJWCRthiOpoCXslyy20L71ygpIMNWbKEVa2OTBZQ=
+github.com/salastro/ed v0.0.0-20250617201409-1309e2de41ad/go.mod h1:hnZ0m5EgQboxJwlqmioQC/y8mDLFjwGBxCSb+bwcrmc=
