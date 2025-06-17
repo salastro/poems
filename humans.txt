@@ -1,0 +1,16 @@
+
+    /* TEAM */
+
+    Author: SalahDin A. Rezk
+    Contact: salah2112004@gmail.com
+    GitHub: @salastro
+    From: Alpha Centauri
+
+    /* SITE */
+
+    Last update: 2025/06/17
+    Language: English
+    Doctype: HTML5
+    Standards: HTML5, CSS3, Open Graph protocol, Schema.org
+    Components: Hugo, Ed Theme, Lunr.js
+    Hugo version: 0.147.7

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Poems</title>
+    <link>salastro.github.io/poems/categories/</link>
+    <description>Recent content in Categories on Poems</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>salah2112004@gmail.com (SalahDin A. Rezk)</managingEditor>
+    <webMaster>salah2112004@gmail.com (SalahDin A. Rezk)</webMaster>
+    <copyright>Public Domain 2025 SalahDin A. Rezk</copyright>
+    <atom:link href="salastro.github.io/poems/categories/rss.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
