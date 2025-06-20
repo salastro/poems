@@ -64,16 +64,16 @@ refLinksErrorLevel = 'WARNING'
   # Site icons, relative to ./static
   [params.assets]
     # favicon.ico for legacy browsers
-    favicon = ''
+    favicon = 'poems.png'
 
     # A single SVG icon with a light/dark version for modern browsers
-    svgicon = ''
+    svgicon = 'poems.png'
 
     # 180×180 PNG image for Apple devices
-    apple_touch_icon = ''
+    apple_touch_icon = 'poems.png'
 
     # Logo image, relative to ./assets
-    logo = '/img/open-graph-logo.png'
+    logo = 'poems.png'
     disable_fingerprinting = false
 
   [params.seo]
