@@ -6,3 +6,5 @@ github.com/salastro/ed v0.0.0-20250615045932-c02dbd996e06 h1:RRYhFnRJYgXqK4Ze9/v
 github.com/salastro/ed v0.0.0-20250615045932-c02dbd996e06/go.mod h1:hnZ0m5EgQboxJwlqmioQC/y8mDLFjwGBxCSb+bwcrmc=
 github.com/salastro/ed v0.0.0-20250617201409-1309e2de41ad h1:hmGKJWCRthiOpoCXslyy20L71ygpIMNWbKEVa2OTBZQ=
 github.com/salastro/ed v0.0.0-20250617201409-1309e2de41ad/go.mod h1:hnZ0m5EgQboxJwlqmioQC/y8mDLFjwGBxCSb+bwcrmc=
+github.com/salastro/ed v0.0.0-20250621005227-e6d7d4586b86 h1:heATNN9twDCCugVBzIY9A9JFLnYRUwkHTICFiYvisJg=
+github.com/salastro/ed v0.0.0-20250621005227-e6d7d4586b86/go.mod h1:hnZ0m5EgQboxJwlqmioQC/y8mDLFjwGBxCSb+bwcrmc=
