@@ -79,7 +79,7 @@ refLinksErrorLevel = 'WARNING'
   [params.seo]
     # Will be used in schema.org/Organization.
     # The site.Title  will be used if empty.
-    publisher = 'Serghei Iakovlev'
+    publisher = 'SalahDin A. Rezk'
 
   showAuthor = true
   [params.author]
