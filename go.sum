@@ -8,3 +8,12 @@ github.com/salastro/ed v0.0.0-20250617201409-1309e2de41ad h1:hmGKJWCRthiOpoCXsly
 github.com/salastro/ed v0.0.0-20250617201409-1309e2de41ad/go.mod h1:hnZ0m5EgQboxJwlqmioQC/y8mDLFjwGBxCSb+bwcrmc=
 github.com/salastro/ed v0.0.0-20250621005227-e6d7d4586b86 h1:heATNN9twDCCugVBzIY9A9JFLnYRUwkHTICFiYvisJg=
 github.com/salastro/ed v0.0.0-20250621005227-e6d7d4586b86/go.mod h1:hnZ0m5EgQboxJwlqmioQC/y8mDLFjwGBxCSb+bwcrmc=
+github.com/salastro/ed v0.0.0-20250621010107-33af1e3bd690/go.mod h1:hnZ0m5EgQboxJwlqmioQC/y8mDLFjwGBxCSb+bwcrmc=
+github.com/salastro/ed v0.0.0-20250621010908-cb78a064e773 h1:IVmc9A6I3OI5NEkRoxlOQzWTpJTv/2Mpw5AK9EWWYKQ=
+github.com/salastro/ed v0.0.0-20250621010908-cb78a064e773/go.mod h1:hnZ0m5EgQboxJwlqmioQC/y8mDLFjwGBxCSb+bwcrmc=
+github.com/salastro/ed v0.0.0-20250621012431-98414931c7a7 h1:XAujb83nRCRkWJ6EB0sYm8Q4xjQfVweoDnLwyrUpjo0=
+github.com/salastro/ed v0.0.0-20250621012431-98414931c7a7/go.mod h1:hnZ0m5EgQboxJwlqmioQC/y8mDLFjwGBxCSb+bwcrmc=
+github.com/salastro/ed v0.0.0-20250621014019-722bfc832fff h1:o+yLEch7eYbA+rIvxscipRTmswFNRXjxp8LmzRJOQIQ=
+github.com/salastro/ed v0.0.0-20250621014019-722bfc832fff/go.mod h1:hnZ0m5EgQboxJwlqmioQC/y8mDLFjwGBxCSb+bwcrmc=
+github.com/salastro/ed v0.0.0-20250621014308-5a3ab63976c4 h1:KMT4Vufmi1Th7EFhdgiF/nZ69xMEsY84+kwu1Xqwq90=
+github.com/salastro/ed v0.0.0-20250621014308-5a3ab63976c4/go.mod h1:hnZ0m5EgQboxJwlqmioQC/y8mDLFjwGBxCSb+bwcrmc=
