@@ -31,8 +31,27 @@
       hypothesisContainer.addEventListener("click", (e) => e.preventDefault());
     }
   }
+  function setupDarkMode() {
+    const checkbox = document.getElementById("darkmode-checkbox");
+    const root = document.body;
+    if (!checkbox) return;
+    if (localStorage.getItem("darkmode") === "true") {
+      checkbox.checked = true;
+      root.classList.add("darkmode");
+    }
+    checkbox.addEventListener("change", () => {
+      if (checkbox.checked) {
+        root.classList.add("darkmode");
+        localStorage.setItem("darkmode", "true");
+      } else {
+        root.classList.remove("darkmode");
+        localStorage.setItem("darkmode", "false");
+      }
+    });
+  }
   document.addEventListener("DOMContentLoaded", () => {
     setupBackToTop();
     setupHypothes();
+    setupDarkMode();
   });
 })();
