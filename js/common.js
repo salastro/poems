@@ -32,22 +32,25 @@
     }
   }
   function setupDarkMode() {
-    const checkbox = document.getElementById("darkmode-checkbox");
-    const root = document.body;
-    if (!checkbox) return;
-    if (localStorage.getItem("darkmode") === "true") {
-      checkbox.checked = true;
-      root.classList.add("darkmode");
+    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    const saved = localStorage.getItem("darkmode");
+    const shouldEnableDark = saved === "true" || saved === null && prefersDark;
+    if (shouldEnableDark) {
+      document.body.classList.add("darkmode");
     }
-    checkbox.addEventListener("change", () => {
-      if (checkbox.checked) {
-        root.classList.add("darkmode");
-        localStorage.setItem("darkmode", "true");
-      } else {
-        root.classList.remove("darkmode");
-        localStorage.setItem("darkmode", "false");
-      }
-    });
+    const checkbox = document.getElementById("darkmode-checkbox");
+    if (checkbox) {
+      checkbox.checked = shouldEnableDark;
+      checkbox.addEventListener("change", () => {
+        if (checkbox.checked) {
+          document.body.classList.add("darkmode");
+          localStorage.setItem("darkmode", "true");
+        } else {
+          document.body.classList.remove("darkmode");
+          localStorage.setItem("darkmode", "false");
+        }
+      });
+    }
   }
   document.addEventListener("DOMContentLoaded", () => {
     setupBackToTop();
